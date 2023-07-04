@@ -1,0 +1,28 @@
+{
+    "name": "quentindrouet/rendu1",
+    "type": "library",
+    "description": "A PHP library to scrape Valorant agent data from mandatory.gg and expose it as PHP objects.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Quentindrouet\\Rendu1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quentin Drouet",
+            "email": "quentin.drouet@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/http-client": "^6.3",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.6 || ^10.2",
+        "friendsofphp/php-cs-fixer": "^3.20"
+    }
+}
